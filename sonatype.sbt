@@ -8,14 +8,14 @@ ThisBuild/licenses := Seq("APL2" -> url("http://www.apache.org/licenses/LICENSE-
 
 // Where is the source code hosted: GitHub or GitLab?
 import xerial.sbt.Sonatype._
-sonatypeProjectHosting := Some(GitHubHosting("liewhite", "swopen", "leeliewhite@gmail.com"))
+sonatypeProjectHosting := Some(GitHubHosting("liewhite", "common", "leeliewhite@gmail.com"))
 
 // or if you want to set these fields manually
-ThisBuild/homepage := Some(url("https://www.github.com/liewhite/swopen"))
+ThisBuild/homepage := Some(url("https://www.github.com/liewhite/common"))
 ThisBuild/scmInfo := Some(
   ScmInfo(
-    url("https://github.com/liewhite/swopen"),
-    "scm:git@github.com:liewhite/swopen.git"
+    url("https://github.com/liewhite/common"),
+    "scm:git@github.com:liewhite/common.git"
   )
 )
 ThisBuild/developers := List(
